@@ -60,7 +60,7 @@ body {
 
 /* Main Hero Section Styles */
 .hero { 
-    background-image: url('./Images/cover.jpeg'); 
+    background-image: url('./Images/cover.webp'); 
     background-repeat: no-repeat; 
     background-size: cover; /* Ajusta a imagem proporcionalmente */
     background-position: center; /* Centraliza a imagem */
@@ -127,17 +127,7 @@ body {
     width: 100%; 
     border-top-right-radius: 20px; 
     border-top-left-radius: 20px; 
-} 
-
-/* Services section styles */
-.services { 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    flex-direction: column; 
-    margin: 4.8rem 0; 
-    padding: 0 5rem; 
-} 
+}
 
 .my-row { 
     display: flex; 
@@ -230,28 +220,31 @@ body {
     list-style: none; 
 } 
 
-
-
-
-
-
 /* utility classes */
 .greet-heading { 
     font-size: 1.3rem; 
     font-weight: lighter; 
     margin: 0; 
     letter-spacing: 1px; 
+    color: #F8F8FF; 
 } 
 
 .my-heading { 
     font-size: 2.5rem; 
     margin: 0; 
+    color: #F8F8FF; 
+}
+
+.my-heading-2 { 
+    font-size: 2.5rem; 
+    margin: 0; 
+    color: #000; 
 } 
 
 .sub-heading { 
     margin: 0; 
     font-size: 0.8rem; 
-    color: #ccc; 
+    color: #F8F8FF; 
     font-weight: lighter; 
 } 
 

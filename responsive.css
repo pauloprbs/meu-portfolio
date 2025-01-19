@@ -61,8 +61,8 @@
 @media screen and (min-width: 280px) and (max-width: 576px) { 
     .hero { 
         justify-content: center; 
-        color: #000; 
-        background-image: url('./Images/cover.jpeg'); 
+        color: #F8F8FF; 
+        background-image: url('./Images/cover.webp'); 
         background-size: cover; /* Mantém a proporção mesmo com a cor */
         background-position: center;
         background-repeat: no-repeat;
@@ -70,7 +70,7 @@
 
     .sub-heading { 
         font-size: 1.0rem; 
-        color: #000; 
+        color: #F8F8FF; 
     } 
 
     .hero .intro-buttons { 
