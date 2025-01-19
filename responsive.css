@@ -61,13 +61,16 @@
 @media screen and (min-width: 280px) and (max-width: 576px) { 
     .hero { 
         justify-content: center; 
-        color: #fff; 
-        background-image: radial-gradient(circle, rgb(15 14 14 / 30%),
-          rgb(102 96 96 / 40%), rgb(163 160 160 / 16%)), url('./Images/heroImg3.avif') 
-    } 
+        color: #000; 
+        background-image: url('./Images/cover.jpeg'); 
+        background-size: cover; /* Mantém a proporção mesmo com a cor */
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
     .sub-heading { 
-        color: #fff9f9cc; 
+        font-size: 1.0rem; 
+        color: #000; 
     } 
 
     .hero .intro-buttons { 
