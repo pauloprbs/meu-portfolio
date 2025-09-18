@@ -266,7 +266,27 @@ body {
     cursor: pointer; 
     letter-spacing: 1px; 
     border: none; 
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 } 
+
+/* Corrigido para as novas regras do botão do currículo */
+.curriculo-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all 0.25s;
+    text-decoration: none;
+}
+
+/* Corrigido para o efeito de hover */
+.curriculo-btn:hover {
+    background-color: #fff;
+    color: #5DADE2;
+    border: 2px solid #5DADE2;
+}
 
 .common-btn { 
     background-color: #5DADE2; 
@@ -295,22 +315,6 @@ body {
     transition: all 0.25s; 
     border: 2px solid #35A99C; 
 } 
-
-/* Nova classe para o botão do currículo */
-.curriculo-btn {
-    background-color: transparent;
-    color: #fff;
-    border: 2px solid #fff;
-    transition: all 0.25s;
-    text-decoration: none; /* remove o sublinhado */
-}
-
-/* Efeito de hover para o novo botão */
-.curriculo-btn:hover {
-    background-color: #5DADE2;
-    border-color: #5DADE2;
-}
-
 
 .heading-span { 
     font-weight: bolder; 
