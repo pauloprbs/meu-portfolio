@@ -120,7 +120,7 @@ body {
 
 .port-card .image { 
     width: 100%; 
-    height: 200px; /* mantém altura fixa */
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,9 +130,9 @@ body {
 } 
 
 .port-card .image img { 
-    width: 100%;         /* ocupa toda a largura */
-    height: 100%;        /* ocupa toda a altura */
-    object-fit: cover;   /* mantém proporção sem distorcer (corta excesso) */
+    height: 100%;
+    width: auto;
+    object-fit: contain;
     border-top-right-radius: 20px; 
     border-top-left-radius: 20px; 
 }
@@ -280,7 +280,7 @@ body {
     appearance: none;
 } 
 
-/* Nova classe para o botão do currículo */
+/* Estilo do botão do currículo */
 .curriculo-btn {
     background-color: transparent;
     color: #fff;
@@ -289,11 +289,15 @@ body {
     text-decoration: none;
 }
 
-/* Corrigido para o efeito de hover */
+/* Efeito de hover e link visitado */
 .curriculo-btn:hover {
     background-color: #fff;
     color: #5DADE2;
     border: 2px solid #5DADE2;
+}
+
+.curriculo-btn:visited {
+    color: #fff;
 }
 
 .common-btn { 
