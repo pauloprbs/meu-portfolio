@@ -120,7 +120,7 @@ body {
 
 .port-card .image { 
     width: 100%; 
-    height: 200px;
+    height: 200px; /* mantém altura fixa */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,9 +130,9 @@ body {
 } 
 
 .port-card .image img { 
-    height: 100%;
-    width: auto;
-    object-fit: contain;
+    width: 100%;         /* ocupa toda a largura */
+    height: 100%;        /* ocupa toda a altura */
+    object-fit: cover;   /* mantém proporção sem distorcer (corta excesso) */
     border-top-right-radius: 20px; 
     border-top-left-radius: 20px; 
 }
