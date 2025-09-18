@@ -270,9 +270,10 @@ body {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    color: inherit;
 } 
 
-/* Corrigido para as novas regras do botão do currículo */
+/* Estilo do botão do currículo */
 .curriculo-btn {
     background-color: transparent;
     color: #fff;
@@ -281,11 +282,14 @@ body {
     text-decoration: none;
 }
 
-/* Corrigido para o efeito de hover */
+/* Efeito de hover e link visitado */
 .curriculo-btn:hover {
-    background-color: #fff;
-    color: #5DADE2;
+    background-color: #5DADE2;
     border: 2px solid #5DADE2;
+}
+
+.curriculo-btn:visited {
+    color: #fff;
 }
 
 .common-btn { 
